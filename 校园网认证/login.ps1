@@ -1,7 +1,7 @@
 $account = ""          # 在此填写学号
 $password = ""         # 在此填写密码
 $operator = ""         # 在此填写运营商（校园网为空，移动:@cmcc，联通:@unicom，电信:@telecom）
-$wireless = [bool]$     # 填写网络连接方式，无线为 true，有线为 false
+$wireless = [bool]$    # 填写网络连接方式，无线为 true，有线为 false
 
 if($wireless)
 {
