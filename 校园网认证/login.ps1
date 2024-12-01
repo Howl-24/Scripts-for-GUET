@@ -28,8 +28,6 @@ if($wireless)
         Invoke-WebRequest -Uri $url
     }
     else { Write-Error "未找到有效的网络信息"}
-
-    
 }  
 else
 {
