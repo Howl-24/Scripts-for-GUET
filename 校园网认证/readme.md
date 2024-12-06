@@ -2,12 +2,14 @@
 本脚本适用于windows
 ## 使用
 编辑脚本中的配置信息：
+
     $account = ""          # 在此填写学号
     $password = ""         # 在此填写密码
     $operator = ""         # 在此填写运营商（校园网为空，移动:@cmcc，联通:@unicom，电信:@telecom）
     $wireless =            # 填写网络连接方式，无线为 $true，有线为 $false
 
 例如：
+
     $account = "2200810114"       # 学号
     $password = "1919810"         # 密码
     $operator = "@unicom"         # 此处为联通
@@ -48,12 +50,14 @@ powershell.exe
 本脚本适用于linux
 ## 使用
 编辑脚本中的配置信息：
+
     account=""          # 在此填写学号
     password=""         # 在此填写密码
     operator=""         # 在此填写运营商（校园网为空，移动:@cmcc，联通:@unicom，电信:@telecom）
     wireless=           # true 表示无线连接，false 表示有线连接
 
 例如：
+
     account = "2200810114"       # 学号
     password = "1919810"         # 密码
     operator = "@unicom"         # 此处为联通
