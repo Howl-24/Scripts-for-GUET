@@ -32,7 +32,7 @@ pip install requests lxml beautifulsoup4
     smtp_port = "465"
     sender_email = "123456789@163.com"
     sender_password = "password"
-    sender_name = "啥b小学期"
+    sender_name = "username"
     receiver_email = "987654321@qq.com"
 
 保存后在shell中输入以下命令运行脚本
